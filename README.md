@@ -8,9 +8,7 @@
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.x-FF4B4B)](https://streamlit.io/)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
-太原科技大学 计算机科学与技术学院 2026 届毕业设计
 
-**作者**：孟鹏程 &emsp; **指导教师**：李凯
 
 ---
 
