@@ -1,0 +1,16 @@
+path: ./fruit_dataset
+
+train: images/train
+val:   images/val
+test:  images/test
+
+nc: 8
+names:
+  0: ripe_apple
+  1: rotten_apple
+  2: ripe_banana
+  3: rotten_banana
+  4: unripe_banana
+  5: ripe_orange
+  6: rotten_orange
+  7: unripe_orange

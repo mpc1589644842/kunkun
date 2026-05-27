@@ -1,0 +1,30 @@
+# fuji_finetune/dataset/data.yaml
+# Finetune 用配置 — 训练集为富士苹果增量,验证集复用旧数据集
+
+# 训练集路径(相对于本 yaml 文件)
+train: images/train
+
+# 验证集路径(用绝对路径指向旧验证集,直接监控旧 16 类性能)
+val: C:/Users/kun/Desktop/fruit_ripeness_std/fruit_dataset_v2/images/val
+
+# 类别数(必须保持 16 类,和原模型对齐,不能改)
+nc: 16
+
+# 类别名(必须和原 data.yaml 完全一致)
+names:
+  - ripe_apple
+  - unripe_apple
+  - rotten_apple
+  - ripe_banana
+  - unripe_banana
+  - rotten_banana
+  - ripe_grape
+  - unripe_grape
+  - ripe_strawberry
+  - unripe_strawberry
+  - ripe_persimmon
+  - unripe_persimmon
+  - ripe_orange
+  - unripe_orange
+  - rotten_orange
+  - rotten_fruit
